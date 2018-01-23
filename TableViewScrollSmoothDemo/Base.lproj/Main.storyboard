@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hW6-o8-dwy" id="KXL-5b-S5P">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCk-DD-aG4">
@@ -52,6 +52,10 @@
                                         <constraint firstItem="HCk-DD-aG4" firstAttribute="leading" secondItem="KXL-5b-S5P" secondAttribute="leading" constant="17" id="pvB-cG-no7"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="desLabel" destination="zCd-Le-Bby" id="yr6-PG-m6U"/>
+                                    <outlet property="logoImageView" destination="HCk-DD-aG4" id="7K4-1P-eFe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

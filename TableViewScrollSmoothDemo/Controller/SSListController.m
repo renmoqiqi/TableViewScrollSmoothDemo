@@ -80,6 +80,7 @@ static NSString *const SSListCellIndentifer = @"SSListCellIndentifer";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     SSListCell *listCell = [tableView dequeueReusableCellWithIdentifier:SSListCellIndentifer forIndexPath:indexPath];
+    [listCell configCell];
     return listCell;
 }
 

@@ -19,5 +19,5 @@
 #pragma mark - Properties
 
 #pragma mark - Actions
-
+- (void)configCell;
 @end
